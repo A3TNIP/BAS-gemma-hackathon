@@ -6,7 +6,7 @@ from websearch import WebSearch
 
 app = FastAPI()
 
-PROJECT_ID = "PROJECT_NAME"
+PROJECT_ID = "gemma-hackathon-bas"
 vertexai.init(project=PROJECT_ID, location="us-central1")
 
 
